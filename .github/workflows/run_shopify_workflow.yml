@@ -16,7 +16,7 @@ env:
 
 jobs:
   run_pipeline:
-    runs-on: [self-hosted, 2025-07-01]
+    runs-on: [self-hosted, Linux, X64]
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
